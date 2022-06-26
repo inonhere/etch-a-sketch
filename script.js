@@ -5,13 +5,17 @@ function rojo() {
 }
 
 function azul() {
-    color ='blue'
+    color =' blue';
+}
+
+function green() {
+    color = 'green';
 }
 
 function crearGrid4() {
     for (let i = 0; i < 16; i++) {
         p = document.querySelector('p');
-        p.classList.remove('container', 'container6');
+        p.classList.remove('container', 'container6', 'container8');
         p.classList.add('container');
         const container = document.querySelector('#especialito');
         const grid = document.createElement('div');
@@ -30,7 +34,7 @@ function crearGrid4() {
 function crearGrid6() {
     for (let i = 0; i < 36; i++) {
         p = document.querySelector('p');
-        p.classList.remove('container', 'container6');
+        p.classList.remove('container', 'container6', 'container8');
         p.classList.add('container6');
         const grid = document.createElement('div');
         const container = document.querySelector('#especialito');
@@ -46,6 +50,7 @@ function crearGrid6() {
     })
 }}}}
 
+
 function borrarGrid() {
     const contenedor = document.querySelector('#especialito');
     while (contenedor.firstChild) {
@@ -53,25 +58,3 @@ function borrarGrid() {
     }
     }
 
-/*
-for (let i = 0; i < 1; i++) {
-    const container = document.querySelector('.container');
-    const grid = document.createElement('div');
-    grid.classList.add('cuadrado');
-    container.appendChild(grid);
-    }
-
-
-const pruebas = document.getElementsByClassName('cuadrado');
-for (const prueba of pruebas) {
-prueba.style.background = 'green';
-}
-
-const pruebita = document.getElementsByClassName('cuadrado');
-for (const prueba of pruebita) {
-prueba.addEventListener("mouseenter", function(event) {
-    event.target.style.background = 'black';
-})
-}
-
-*/
