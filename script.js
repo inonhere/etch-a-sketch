@@ -36,6 +36,7 @@ function crearGrid4() {
         const elementos = document.getElementsByClassName('cuadrado');
     for (const elemento of elementos) {
         elemento.style.background = 'black';
+        elemento.style.border = '1px solid gray';
         const varios = document.getElementsByClassName('cuadrado');
     for (const solo of varios) {
         solo.addEventListener("mouseenter", function(event) {
@@ -58,6 +59,7 @@ function crearGrid6() {
         const elementos = document.getElementsByClassName('cuadrado');
     for (const elemento of elementos) {
         elemento.style.background = 'black';
+        elemento.style.border = '1px solid gray';
         const varios = document.getElementsByClassName('cuadrado');
     for (const solo of varios) {
         solo.addEventListener("mouseenter", function(event) {
@@ -80,6 +82,7 @@ function crearGrid8() {
         const elementos = document.getElementsByClassName('cuadrado');
     for (const elemento of elementos) {
         elemento.style.background = 'black';
+        elemento.style.border = '1px solid gray';
         const varios = document.getElementsByClassName('cuadrado');
     for (const solo of varios) {
         solo.addEventListener("mouseenter", function(event) {
@@ -102,6 +105,7 @@ function crearGrid16() {
         const elementos = document.getElementsByClassName('cuadrado');
     for (const elemento of elementos) {
         elemento.style.background = 'black';
+        elemento.style.border = '1px solid gray';
         const varios = document.getElementsByClassName('cuadrado');
     for (const solo of varios) {
         solo.addEventListener("mouseenter", function(event) {
