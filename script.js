@@ -1,4 +1,7 @@
-color = 'white'
+r = Math.floor(Math.random() * 255)
+g = Math.floor(Math.random() * 255)
+b = Math.floor(Math.random() * 255)
+color = `rgb(${r}, ${g}, ${b})`
 
 function rojo() {
     color = 'red';
@@ -19,6 +22,19 @@ function amarillo() {
 function borrador() {
     color = 'white'
 }
+
+function random() {
+    r = Math.floor(Math.random() * 255)
+    g = Math.floor(Math.random() * 255)
+    b = Math.floor(Math.random() * 255)
+    color = `rgb(${r}, ${g}, ${b})`
+}
+
+
+unico = document.getElementById('especialito');
+unico.addEventListener("mouseenter", function(event) {
+    event.target.style.background = color;
+})
 
 
 function crearGrid4() {
