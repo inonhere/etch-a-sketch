@@ -12,7 +12,19 @@ function green() {
     color = 'green';
 }
 
+function amarillo() {
+    color = 'yellow';
+}
+
+function borrador() {
+    color = 'white'
+}
+
+
 function crearGrid4() {
+    const contenedor = document.querySelector('#especialito');
+    while (contenedor.firstChild) {
+        contenedor.removeChild(contenedor.firstChild)}
     for (let i = 0; i < 16; i++) {
         p = document.querySelector('p');
         p.classList.remove('container', 'container6', 'container8');
@@ -32,6 +44,9 @@ function crearGrid4() {
 }}}}
 
 function crearGrid6() {
+    const contenedor = document.querySelector('#especialito');
+    while (contenedor.firstChild) {
+        contenedor.removeChild(contenedor.firstChild)}
     for (let i = 0; i < 36; i++) {
         p = document.querySelector('p');
         p.classList.remove('container', 'container6', 'container8');
