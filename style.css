@@ -1,3 +1,4 @@
+
 .titleContainer {
     display: flex;
     align-content: center;
@@ -19,6 +20,23 @@
     width: 500px;
     height: 500px;
 }
+
+.container8 {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    width: 500px;
+    height: 500px;
+}
+
+.container16 {
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16, 1fr);
+    width: 500px;
+    height: 500px;
+}
+
 
 
 
